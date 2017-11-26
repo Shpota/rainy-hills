@@ -1,0 +1,23 @@
+.content {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#volumes-input {
+    width:75%;
+}
+
+#calculate-button {
+    width: 20%;
+}
+
+#result-text {
+    display: block;
+    visibility: hidden;
+}
+
+#alert {
+    color: red;
+    display: block;
+    visibility: hidden;
+}
