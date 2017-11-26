@@ -1,6 +1,5 @@
 package com.shpota.rainyhills.rest;
 
-import com.shpota.rainyhills.rest.SolvingEndpoint;
 import com.shpota.rainyhills.service.SolvingService;
 import org.junit.Rule;
 import org.junit.Test;
