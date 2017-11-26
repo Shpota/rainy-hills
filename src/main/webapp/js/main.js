@@ -8,7 +8,7 @@ function calculateVolumes() {
     const query = '/api/calculate-water-volume?hills=' + volumes.replace(/ +/g, '&hills=');
     const request = new XMLHttpRequest();
     request.onreadystatechange = function () {
-        document.getElementById('calculation-result').innerHTML = request.responseText;
+        document.getElementById('result').innerHTML = request.responseText;
         document.getElementById('result-text').style.visibility = 'visible';
     };
     request.open('GET', query, true);
