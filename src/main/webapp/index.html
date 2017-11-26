@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Rainy Hills Solver</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="content">
+    <h3>Enter positive integer numbers separated by space which represent the hills.
+        Press 'Calculate' button to get result</h3>
+    <label id="alert">Please enter only valid numbers</label>
+    <input type="text"
+           id="volumes-input"
+           oninput="validateInput();"
+           placeholder="1 2 8 3 10..."/>
+    <input type="submit"
+           id="calculate-button"
+           onclick="calculateVolumes();"
+           value="Calculate"
+           disabled/>
+    <h3 id="result-text">Result: <label id="result"></label></h3>
+</div>
+</body>
+</html>
