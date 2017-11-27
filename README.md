@@ -29,7 +29,7 @@ The application is split into frontend part writen with `html/js/css` and
 backend part writen with `Java 8` + `Wildfly Swarm`. The frontend accesses 
 the backend  via REST API calls.
 
-The backend part is logically splitted into service level and REST API level.
+The backend part is logically split into service level and REST API level.
 The service part is represented by 
 [SolvingService](./src/main/java/com/shpota/rainyhills/service/SolvingService.java).
 The REST part is represented by 
